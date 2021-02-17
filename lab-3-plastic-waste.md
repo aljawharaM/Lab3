@@ -1,11 +1,9 @@
 Lab 3 - Plastic Waste
 ================
 DSC 200 - Data Science I
-2021-02-06
+2021-02-17
 
-Student Name:
-
-Student ID:
+Student Name:aljawhara khalid G:DS6 Student ID:2201001960
 
 ``` r
 library(tidyverse)
