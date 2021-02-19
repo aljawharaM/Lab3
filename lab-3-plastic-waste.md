@@ -194,6 +194,12 @@ E8. Recreate the following plot, and interpret what you see in context
 of the data.
 
 ![](lab-3-plastic-waste_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](lab-3-plastic-waste_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+Answer : gemo\_smooth (aids the eye in seeing patterns in the presence
+of over plotting also its help us to do see the curve of the data and
+analysis it via a different way) the coastal cites in Asia and north
+America is have the most plastic waste per capita and the lowest
+population
 
 Knit, *commit (with an appropriate message), and push your changes to
 GitHub with an appropriate commit message. Make sure to commit and push
