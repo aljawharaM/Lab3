@@ -153,10 +153,17 @@ to be any clear distinctions between continents with respect to how
 plastic waste per capita and mismanaged plastic waste per capita are
 associated?
 
-E7. Visualize the relationship between plastic waste per capita and
-total population as well as plastic waste per capita and coastal
-population. You will need to make two separate plots. Do either of these
-pairs of variables appear to be more strongly linearly associated?
+``` r
+ggplot(data = plastic_waste, 
+       mapping = aes(x = mismanaged_plastic_waste_per_cap,color=continent,fill=continent,y=plastic_waste_per_cap))+geom_point() 
+```
+
+Answer: Europe (positive) relationship, Africa is the nost
+(mismanaged\_plastic waste per cap) E7. Visualize the relationship
+between plastic waste per capita and total population as well as plastic
+waste per capita and coastal population. You will need to make two
+separate plots. Do either of these pairs of variables appear to be more
+strongly linearly associated?
 
 *Now is another good time to knit your document and commit and push your
 changes to GitHub with an appropriate commit message. Make sure to
