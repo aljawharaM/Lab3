@@ -113,7 +113,8 @@ E3. Describe why we defined the `color` and `fill` of the curves by
 mapping aesthetics of the plot but we defined the `alpha` level as a
 characteristic of the plotting geom.
 
-Answer here:
+Answer here: because as the alpha value increases, the colors overlap
+each other, and we will not be able determine the values we want
 
 *Now is a good time to knit your document and commit and push your
 changes to GitHub with an appropriate commit message. Make sure to
