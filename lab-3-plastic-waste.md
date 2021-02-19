@@ -87,14 +87,6 @@ ggplot(data = plastic_waste,
 The resulting plot may be a little difficult to read, so let’s also fill
 the curves in with colours as well.
 
-``` r
-ggplot(data = plastic_waste, 
-       mapping = aes(x = plastic_waste_per_cap, 
-                     color = continent, 
-                     fill = continent)) +
-  geom_density()
-```
-
 This still doesn’t look great…
 
 E2. Recreate the density plots above using a different (lower) alpha
@@ -124,17 +116,22 @@ afterwards.*
 And yet another way to visualize this relationship is using side-by-side
 box plots.
 
-``` r
-ggplot(data = plastic_waste, 
-       mapping = aes(x = continent, 
-                     y = plastic_waste_per_cap)) +
-  geom_boxplot()
-```
-
 E4. Convert your side-by-side box plots from the previous task to
 [violin plots](http://ggplot2.tidyverse.org/reference/geom_violin.html).
 What do the violin plots reveal that box plots do not? What features are
 apparent in the box plots but not in the violin plots?
+
+``` r
+ggplot(data = plastic_waste, 
+       mapping = aes(x = continent, 
+                     y = plastic_waste_per_cap)) +
+  geom_violin()
+```
+
+Answer: box plots provide a coarser summary of the data, provide more of
+a summary of a distribution can also be seen as an advantage in certain
+cases , also the point in the graph or mapping its most clearly than
+violin plots
 
 **Remember:** We use `geom_point()` to make scatterplots.
 
